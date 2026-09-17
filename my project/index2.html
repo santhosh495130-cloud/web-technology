@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><title>Atelier</title><link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Hanken+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#f9f9f8;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-highest":"#e2e2e2","on-primary":"#ffffff","on-surface-variant":"#46464a","on-background":"#1a1c1c","tertiary-container":"#1a1c1c","surface-container-lowest":"#ffffff","on-primary-fixed-variant":"#474647","on-error-container":"#93000a","primary-fixed-dim":"#c8c6c7","on-tertiary-container":"#838484","surface-container-high":"#e8e8e7","tertiary-fixed":"#e2e2e2","tertiary":"#000000","background":"#f9f9f8","on-primary-fixed":"#1c1b1c","on-secondary-fixed-variant":"#464747","primary":"#000000","surface-tint":"#5f5e5f","on-tertiary-fixed-variant":"#454747","on-error":"#ffffff","outline":"#77777b","on-tertiary-fixed":"#1a1c1c","secondary-fixed":"#e3e2e2","inverse-on-surface":"#f1f1f0","secondary-container":"#e3e2e2","error":"#ba1a1a","secondary-fixed-dim":"#c7c6c6","outline-variant":"#c7c6ca","surface-container-low":"#f3f4f3","inverse-surface":"#2f3130","on-surface":"#1a1c1c","on-tertiary":"#ffffff","primary-fixed":"#e5e2e3","primary-container":"#1c1b1c","on-secondary":"#ffffff","error-container":"#ffdad6","surface-bright":"#f9f9f8","tertiary-fixed-dim":"#c6c6c6","surface-variant":"#e2e2e2","on-secondary-fixed":"#1b1c1c","on-primary-container":"#858384","inverse-primary":"#c8c6c7","surface-dim":"#dadad9","surface-container":"#eeeeed","on-secondary-container":"#646464","secondary":"#5e5e5e","surface":"#f9f9f8"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-md":"1rem","margin-mobile":"1rem","gutter-mobile":"0.75rem","space-3xl":"4.5rem","space-lg":"1.5rem","space-sm":"0.75rem","margin-desktop":"3rem","space-2xl":"3rem","gutter-desktop":"1.5rem","space-xl":"2rem","space-xs":"0.5rem","space-2xs":"0.25rem"},fontFamily:{"display-hero":["Bodoni Moda"],"label-sm":["Hanken Grotesk"],"body-sm":["Hanken Grotesk"],"headline-sm":["Hanken Grotesk"],"body-lg":["Hanken Grotesk"],"headline-lg":["Bodoni Moda"],"display-hero-mobile":["Bodoni Moda"],"body-md":["Hanken Grotesk"],"headline-md":["Hanken Grotesk"],"headline-lg-mobile":["Bodoni Moda"],"label-caps":["Hanken Grotesk"]},fontSize:{"display-hero":["56px",{lineHeight:"60px",letterSpacing:"-0.03em",fontWeight:"400"}],"label-sm":["10px",{lineHeight:"12px",letterSpacing:"0.08em",fontWeight:"500"}],"body-sm":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"400"}],"headline-sm":["16px",{lineHeight:"22px",letterSpacing:"0em",fontWeight:"600"}],"body-lg":["16px",{lineHeight:"24px",letterSpacing:"0em",fontWeight:"400"}],"headline-lg":["34px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"500"}],"display-hero-mobile":["38px",{lineHeight:"42px",letterSpacing:"-0.02em",fontWeight:"400"}],"body-md":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"400"}],"headline-md":["20px",{lineHeight:"26px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-lg-mobile":["26px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"500"}],"label-caps":["11px",{lineHeight:"14px",letterSpacing:"0.14em",fontWeight:"600"}]}}}};</script></head><body class="bg-surface text-on-surface font-body-md text-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin-mobile flex items-center justify-between"><div class="flex items-center gap-space-xs"><img alt="Atelier Multi-Brand Fashion Store Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UPyMZo_HXh-1wXG3Vim0FsXmDmO1CoXU2fPeZMiucKxKjnj02zFDWSSm88a45b41kvQhCcl5iCxg-Kzo5Kxo4oWNO1tYXVdJgzjkQeiy77qr_rIUAMk6mbi8Vitt67MCBszXIsefM9NGTKJwxR7QXwQR7Ne40X1CMF8WmuxRP95mu1MLRCQf0f0wTDIJ1SAH0kPiv3A1tLj0ihb5O_914FuNRVhm6QiC-Xh87JpwB1LF8P5hMIgEZn428"/><span class="font-headline-lg-mobile text-headline-lg-mobile tracking-tight text-primary uppercase">ATELIER</span><span class="sr-only">Home Feed</span></div><div class="flex items-center gap-space-2xs"><a aria-label="Search" class="w-11 h-11 flex items-center justify-center text-primary hover:text-on-surface-variant transition-colors" data-path="search-catalog" href="#"><span class="material-symbols-outlined text-[22px]">search</span></a><a aria-label="Shopping Bag" class="relative w-11 h-11 flex items-center justify-center text-primary hover:text-on-surface-variant transition-colors" data-path="shopping-bag" href="#"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute top-2 right-2 min-w-[15px] h-[15px] px-[3px] bg-primary text-on-primary font-label-sm text-label-sm rounded-full flex items-center justify-center leading-none">2</span></a><a aria-label="Account Profile" class="w-11 h-11 flex items-center justify-center pl-1" data-path="profile-hub" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwdyvjNB3HtSUPYtFa0ixQ0JdujP0MJhXOwqAZTV4dezGhozOU6A4EkgHIfmR7GrMkrUUobYth40Gr9somufEsnsuH4TCh1vRf8eLAjBw66M9SaenhrnvI5JF8hy9yMLM09wGQW0AwqvM7iA1jsS9LoAeXfyk07aJKtCeAEzznLPWWMNPzsvWAp36kZtF2Occ17zYbdqDyn2W-pzBs51S63gn8L873S62QpRqK4oF-XR2GKruYd188-g"/></a></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full pb-8">
+<!-- Micro Toast Notification for Add to Bag -->
+<div class="fixed top-20 left-1/2 -translate-x-1/2 z-50 bg-primary text-on-primary px-space-md py-space-xs rounded-none shadow-xl flex items-center gap-space-xs pointer-events-none opacity-0 transition-all duration-300 transform -translate-y-2" id="toast-notification">
+<span class="material-symbols-outlined text-[18px] text-on-primary">check_circle</span>
+<span class="font-label-caps text-label-caps tracking-widest uppercase" id="toast-message">Added to Wardrobe Bag</span>
+</div>
+<!-- Editorial Campaign Hero -->
+<section class="relative w-full overflow-hidden bg-surface-container-high">
+<div class="relative w-full aspect-[4/5] max-h-[540px]">
+<img class="w-full h-full object-cover object-top" data-alt="High-end editorial fashion photography of two diverse models walking on a brutalist concrete runway in natural overcast daylight. They wear draped oversized neutral trench coats, tailored monochrome streetwear, and minimal sneakers. Neutral muted tones, crisp lighting, Vogue Italia editorial aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA87Mw-GSi5BfKJFJN1zZMQ_Y00L9OcttaAx7diaGQwrpK9v2t4BEKO6D6pbgV-LsE8EN7JMvvCKSgpGT4j975auoV0qKBVpcoJqZpIebi8Z2YpmlBnxCLBRbWoDZTm9GJnSSv_MwDnqErMzrqrHxyLdfpvU7qRVADYBNdehNU2SqWWY-8drfOLrE5WTjpA14pi1CnTLSdECxjL_xYAsw9AYdvE1z9eolDxdk5fxjM2OKRINDyvgz4nag"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent flex flex-col justify-end p-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-2">
+<span class="inline-block w-2 h-2 rounded-full bg-surface-bright"></span>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-surface-container-low">Curated Series · Vol. 04</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-primary tracking-tight leading-tight">
+            Spring/Summer Drop:<br/>The Multi-Brand Edit
+          </h1>
+<p class="font-body-sm text-body-sm text-surface-container-highest max-w-[280px] line-clamp-2">
+            A surgical clash of modern streetwear and heritage tailoring from Nike, Zara, and Ralph Lauren.
+          </p>
+<div class="pt-space-xs flex items-center gap-space-sm">
+<button class="h-12 px-space-lg bg-surface-bright text-primary font-label-caps text-label-caps uppercase tracking-widest hover:bg-surface-container-highest transition-colors flex items-center gap-space-xs active:scale-95 duration-150" id="shop-hero-cta">
+<span>Shop Drop</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-surface-container-high">Limited Allocations</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Live Brand Ticker Divider -->
+<div class="w-full bg-primary text-on-primary py-space-xs overflow-hidden flex items-center">
+<div class="flex whitespace-nowrap gap-space-xl font-label-caps text-label-caps uppercase tracking-widest text-on-primary-container animate-pulse">
+<span>ZARA STUDIO</span>
+<span>•</span>
+<span>NIKE SPORTSWEAR</span>
+<span>•</span>
+<span>JACK &amp; JONES DENIM</span>
+<span>•</span>
+<span>POLO RALPH LAUREN</span>
+<span>•</span>
+<span>UNIQLO U</span>
+<span>•</span>
+<span>ADIDAS ORIGINALS</span>
+</div>
+</div>
+<!-- Brand Filter Pill Scroller -->
+<section class="pt-space-lg px-margin-mobile">
+<div class="flex items-baseline justify-between mb-space-xs">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">Index Selector</span>
+<span class="font-body-sm text-body-sm text-secondary" id="active-filter-label">Viewing All Brands (8)</span>
+</div>
+<div class="flex items-center gap-space-xs overflow-x-auto pb-2 scrollbar-none -mx-margin-mobile px-margin-mobile">
+<button class="brand-pill h-9 px-space-md flex-shrink-0 bg-primary text-on-primary font-label-caps text-label-caps uppercase tracking-wider transition-all duration-150" data-brand="all">
+        All
+      </button>
+<button class="brand-pill h-9 px-space-md flex-shrink-0 bg-surface-container text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-container-high transition-all duration-150" data-brand="zara">
+        Zara
+      </button>
+<button class="brand-pill h-9 px-space-md flex-shrink-0 bg-surface-container text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-container-high transition-all duration-150" data-brand="nike">
+        Nike
+      </button>
+<button class="brand-pill h-9 px-space-md flex-shrink-0 bg-surface-container text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-container-high transition-all duration-150" data-brand="jack-jones">
+        Jack &amp; Jones
+      </button>
+<button class="brand-pill h-9 px-space-md flex-shrink-0 bg-surface-container text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-container-high transition-all duration-150" data-brand="ralph-lauren">
+        Ralph Lauren
+      </button>
+<button class="brand-pill h-9 px-space-md flex-shrink-0 bg-surface-container text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-container-high transition-all duration-150" data-brand="adidas">
+        Adidas
+      </button>
+<button class="brand-pill h-9 px-space-md flex-shrink-0 bg-surface-container text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-container-high transition-all duration-150" data-brand="uniqlo">
+        Uniqlo
+      </button>
+</div>
+</section>
+<!-- Featured Drops Grid -->
+<section class="pt-space-md px-margin-mobile">
+<div class="flex items-end justify-between mb-space-sm">
+<div>
+<h2 class="font-headline-md text-headline-md text-primary tracking-tight">Curated Arrivals</h2>
+<p class="font-body-sm text-body-sm text-secondary">Handpicked silhouettes from seasonal lookbooks</p>
+</div>
+<button class="font-label-caps text-label-caps uppercase tracking-widest text-primary hover:underline flex items-center gap-1">
+<span>Full Roster</span>
+<span class="material-symbols-outlined text-[14px]">north_east</span>
+</button>
+</div>
+<div class="grid grid-cols-2 gap-gutter-mobile" id="product-grid">
+<!-- Card 1: Zara -->
+<article class="product-card flex flex-col group bg-surface-container-lowest transition-all" data-brand="zara">
+<div class="relative w-full aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="High-fashion studio shot of a model wearing a fluid, oversized cotton trench coat in soft parchment ecru. Minimal backdrop, soft shadows, clean architectural silhouette, high-end editorial lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuApBvmJjmIOIR_R5iT9aSF02pEzzqaIOwRX3B8jY7ALMLZSqaQh_JT5Vf0EgcdN4dFRE32LtvmJz5Vn05FhkjtdFsLqnM_-mPFJu0Vvb33oJPMq9TfbX5oNDo0LrW5COe6eOYKNd5Ihy8vOuY6o-HKT96WrVCkIexpuks7PKRqt3sWM-kk9lxCRu67RbHMXNZFoB_UsXLQi9lsYDM-kHB87m9hVbK2gZxb1qYTmd9WEkbXzVowS9P3xfg"/>
+<span class="absolute top-2 left-2 bg-surface-bright/90 backdrop-blur-md px-2 py-0.5 font-label-sm text-label-sm uppercase tracking-widest text-primary">New Season</span>
+<button aria-label="Add Oversized Cotton Trench to Bag" class="add-to-bag-btn absolute bottom-2 right-2 w-9 h-9 bg-primary text-on-primary flex items-center justify-center shadow-md active:scale-90 transition-transform" data-name="Oversized Cotton Trench" data-price="185">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<div class="p-space-xs flex flex-col gap-0.5">
+<div class="flex justify-between items-center">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">ZARA</span>
+<span class="font-label-sm text-label-sm text-outline">EU 38-44</span>
+</div>
+<h3 class="font-body-md text-body-md text-primary font-medium truncate">Oversized Cotton Trench</h3>
+<div class="flex items-center justify-between mt-1">
+<span class="font-headline-sm text-headline-sm text-primary">$185</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Free Shipping</span>
+</div>
+</div>
+</article>
+<!-- Card 2: Nike -->
+<article class="product-card flex flex-col group bg-surface-container-lowest transition-all" data-brand="nike">
+<div class="relative w-full aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Product photograph of a sleek matte black Nike Sport Edition Dri-FIT technical crewneck sweatshirt. Modern athletic streetwear styling, draped on a minimalist plaster mannequin against an off-white background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0okA3yIy1FA7X5W9NhgL2qqCLe3M1LrUMXJnW1gI3cwyWHSUgvKg6-WqYUP2T7vamFPi_Wz8S_nTAcl5wrv9Hhbc6sO1dqX3vVOzmnFWpdztQhhjuLqteB34yCCRWAq6TmeD6hMweovvwS4zF_Wrlr87Ez5zzyXz70hla1F5yCfVI21XcRpMLYQmsevIfkpHL5o--NjokZRI8I6z6eTE_WG5hBLMmvU2zFKzjGkVFE7K2xlSBOknrvQ"/>
+<span class="absolute top-2 left-2 bg-primary text-on-primary px-2 py-0.5 font-label-sm text-label-sm uppercase tracking-widest">Tech Series</span>
+<button aria-label="Add Dri-FIT Sport Edition Crewneck to Bag" class="add-to-bag-btn absolute bottom-2 right-2 w-9 h-9 bg-primary text-on-primary flex items-center justify-center shadow-md active:scale-90 transition-transform" data-name="Dri-FIT Sport Edition Crewneck" data-price="85">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<div class="p-space-xs flex flex-col gap-0.5">
+<div class="flex justify-between items-center">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">NIKE</span>
+<span class="font-label-sm text-label-sm text-outline">S · M · L</span>
+</div>
+<h3 class="font-body-md text-body-md text-primary font-medium truncate">Dri-FIT Sport Edition Crewneck</h3>
+<div class="flex items-center justify-between mt-1">
+<span class="font-headline-sm text-headline-sm text-primary">$85</span>
+<span class="font-label-sm text-label-sm text-secondary">Sportswear</span>
+</div>
+</div>
+</article>
+<!-- Card 3: Jack & Jones -->
+<article class="product-card flex flex-col group bg-surface-container-lowest transition-all" data-brand="jack-jones">
+<div class="relative w-full aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Raw indigo denim jacket by Jack and Jones hanging on a minimalist steel rack. Clean vintage wash, silver metal rivet buttons, textured selvedge denim weave visible in sharp high-fashion lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIMYGC3CiTyf9nM-u1XL56w0vnsCz1DvvHXY1CvcqRCRFGVLO5inNiUmkK_qZbmI6ARxp0HOclW88xS_HFGv2h7v-NBvFyYo66boxBHhDKQcpw0jRQwFVIKzS18B4_EseJbDiyV_tRalBmOJY47tT-W89xmV4GdSG5_lvvPH7FuTafLz389CRuNid6yb-rZfdIXeEbLss1m2iiYN3PSfORGenP423gCAyyDI78WSBLtO7kG-qMyP4CXA"/>
+<span class="absolute top-2 left-2 bg-error text-on-error px-2 py-0.5 font-label-sm text-label-sm uppercase tracking-widest">-25% OFF</span>
+<button aria-label="Add Tailored Denim Jacket to Bag" class="add-to-bag-btn absolute bottom-2 right-2 w-9 h-9 bg-primary text-on-primary flex items-center justify-center shadow-md active:scale-90 transition-transform" data-name="Tailored Denim Jacket" data-price="72">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<div class="p-space-xs flex flex-col gap-0.5">
+<div class="flex justify-between items-center">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">JACK &amp; JONES</span>
+<span class="font-label-sm text-label-sm line-through text-outline">$96</span>
+</div>
+<h3 class="font-body-md text-body-md text-primary font-medium truncate">Tailored Denim Jacket</h3>
+<div class="flex items-center justify-between mt-1">
+<span class="font-headline-sm text-headline-sm text-error">$72</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Indigo Selvedge</span>
+</div>
+</div>
+</article>
+<!-- Card 4: Zara -->
+<article class="product-card flex flex-col group bg-surface-container-lowest transition-all" data-brand="zara">
+<div class="relative w-full aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Editorial look of relaxed pleated wool trousers in charcoal black worn with polished loafers. Cinematic studio lighting casting subtle shadow gradients on tailored textured fabric." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzKdorqEHtP2UwfSi5KF8uQzH6DISOCyljNtML_nPINU1qZydL4c9ZJAc52J6gpg09PsNiwlxbkw1m1GNglBhtehsGCO24y7yFtYRVR8z2WxEQwNe-ikF-zxAZCoax0x4CwlE0wStpPJC9Aa3MpCV9CEGDkLvFcWQDk2sskeSpIiItizdjE6IJByoEvfyi15xiwAphR5nG-XXuoVcy23F4mm97fb-IugPAl9YMwP93OqCpWuxrNt5Llw"/>
+<button aria-label="Add Pleated Straight Trouser to Bag" class="add-to-bag-btn absolute bottom-2 right-2 w-9 h-9 bg-primary text-on-primary flex items-center justify-center shadow-md active:scale-90 transition-transform" data-name="Pleated Straight Trouser" data-price="69">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<div class="p-space-xs flex flex-col gap-0.5">
+<div class="flex justify-between items-center">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">ZARA</span>
+<span class="font-label-sm text-label-sm text-outline">Relaxed Fit</span>
+</div>
+<h3 class="font-body-md text-body-md text-primary font-medium truncate">Pleated Straight Trouser</h3>
+<div class="flex items-center justify-between mt-1">
+<span class="font-headline-sm text-headline-sm text-primary">$69</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Restocked</span>
+</div>
+</div>
+</article>
+<!-- Card 5: Ralph Lauren -->
+<article class="product-card flex flex-col group bg-surface-container-lowest transition-all" data-brand="ralph-lauren">
+<div class="relative w-full aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Ralph Lauren cream knit cable-knit sweater photographed on a polished stone plinth. Golden hour warm architectural lighting highlighting luxurious knit yarn texture and heritage tailoring craftsmanship." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsggp2ZHOUdqzKP4gv4qAoUjX7uBuJcZW_CC6YfRi0YwMwCmnuDluJgZyAY5oK8KfftpniCp5c85VfvOtsPWZQY0_G68ACSrLTLlCFq5q8CkCn4lQCDfh-RXC-m6MoTiFHpCU0sKPfng824a0bhw6vd599NImnlsCifZsYCes2jR4j_AenL51vsT37FEpABq_7d_py9d_OTOH4P-FTZ2e0jEGDTrcEp460GFWW-IwpP076DluOu37uzA"/>
+<span class="absolute top-2 left-2 bg-surface-bright/90 backdrop-blur-md px-2 py-0.5 font-label-sm text-label-sm uppercase tracking-widest text-primary">Heritage</span>
+<button aria-label="Add Iconic Cable-Knit Sweater to Bag" class="add-to-bag-btn absolute bottom-2 right-2 w-9 h-9 bg-primary text-on-primary flex items-center justify-center shadow-md active:scale-90 transition-transform" data-name="Iconic Cable-Knit Sweater" data-price="148">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<div class="p-space-xs flex flex-col gap-0.5">
+<div class="flex justify-between items-center">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">RALPH LAUREN</span>
+<span class="font-label-sm text-label-sm text-outline">100% Wool</span>
+</div>
+<h3 class="font-body-md text-body-md text-primary font-medium truncate">Iconic Cable-Knit Sweater</h3>
+<div class="flex items-center justify-between mt-1">
+<span class="font-headline-sm text-headline-sm text-primary">$148</span>
+<span class="font-label-sm text-label-sm text-secondary">Archival</span>
+</div>
+</div>
+</article>
+<!-- Card 6: Uniqlo -->
+<article class="product-card flex flex-col group bg-surface-container-lowest transition-all" data-brand="uniqlo">
+<div class="relative w-full aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Minimalist Uniqlo U boxy heavyweight mock-neck t-shirt in washed chalk olive. Clean flat lay styling on natural beige textured linen surface, modern essential menswear." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYMtxc6mYZIS2r0VJiIQgPu-8HQNyFXtS5gqWEJrepkZ4RL8fpPbxjz6AsQNY9wr3yNO108UsjzdJ9-vwbXEqSbKbIclUz3uNUjepaAdJTyHLcDT_eVqUxQeTPnILxlw3PSZfucjMrrR3GOemUGAyuv7WR0biZ3AnxAxhBuIywfmp1Jfz0hS0Ndi1E7PbFteKAgTHmgmXrAsn6Xeza7qDLqgUgD3SGFf0DcrjxyjM_NOfpU0TWFbIZuQ"/>
+<button aria-label="Add Airism Oversized Mock Tee to Bag" class="add-to-bag-btn absolute bottom-2 right-2 w-9 h-9 bg-primary text-on-primary flex items-center justify-center shadow-md active:scale-90 transition-transform" data-name="Airism Oversized Mock Tee" data-price="48">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<div class="p-space-xs flex flex-col gap-0.5">
+<div class="flex justify-between items-center">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">UNIQLO U</span>
+<span class="font-label-sm text-label-sm text-outline">Heavyweight</span>
+</div>
+<h3 class="font-body-md text-body-md text-primary font-medium truncate">Airism Oversized Mock Tee</h3>
+<div class="flex items-center justify-between mt-1">
+<span class="font-headline-sm text-headline-sm text-primary">$48</span>
+<span class="font-label-sm text-label-sm text-secondary">Everyday Core</span>
+</div>
+</div>
+</article>
+</div>
+<!-- Empty State for Filters -->
+<div class="hidden py-space-2xl text-center bg-surface-container-low p-space-md my-space-sm" id="filter-empty-state">
+<span class="material-symbols-outlined text-[36px] text-outline mb-space-xs">search_off</span>
+<h4 class="font-headline-sm text-headline-sm text-primary">No Releases in this Brand Segment</h4>
+<p class="font-body-sm text-body-sm text-secondary mt-1 max-w-xs mx-auto">New drops are refreshed every Thursday at 10:00 AM CET.</p>
+<button class="mt-space-sm px-space-md h-10 bg-primary text-on-primary font-label-caps text-label-caps uppercase tracking-widest" id="reset-filter-btn">
+        Reset to All Brands
+      </button>
+</div>
+</section>
+<!-- Flash Drop Promotion Banner -->
+<section class="mt-space-xl px-margin-mobile">
+<div class="relative bg-primary text-on-primary p-space-lg overflow-hidden">
+<!-- Decorative geometric line accent -->
+<div class="absolute -right-8 -bottom-8 w-44 h-44 rounded-full bg-surface-container/10 pointer-events-none"></div>
+<div class="relative z-10 flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="bg-error text-on-error font-label-sm text-label-sm uppercase tracking-widest px-2 py-0.5">Flash Allocation</span>
+<span class="font-label-caps text-label-caps text-surface-container uppercase tracking-wider">Ends in 08:42:19</span>
+</div>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-on-primary tracking-tight">
+          Jack &amp; Jones x Denim Essentials
+        </h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest max-w-xs">
+          Exclusive multi-brand member pricing on selvedge jackets, straight jeans, and overshirts.
+        </p>
+<div class="pt-space-xs flex items-center justify-between">
+<span class="font-display-hero-mobile text-display-hero-mobile text-on-primary leading-none">25% OFF</span>
+<button class="h-11 px-space-md bg-surface-bright text-primary font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-container-high transition-colors active:scale-95 duration-150">
+            Claim Offer
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Curated Collection Carousel: Street & Tech by Nike -->
+<section class="mt-space-xl">
+<div class="px-margin-mobile flex items-end justify-between mb-space-xs">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">Curated Story</span>
+<h2 class="font-headline-md text-headline-md text-primary tracking-tight">Street &amp; Tech by Nike</h2>
+</div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-outline">3 Archetypes</span>
+</div>
+<div class="flex gap-space-sm overflow-x-auto px-margin-mobile pb-space-sm scrollbar-none snap-x snap-mandatory">
+<!-- Story Card 1 -->
+<div class="snap-start flex-shrink-0 w-[260px] bg-surface-container-lowest flex flex-col group">
+<div class="relative w-full aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Model wearing futuristic Nike insulated tech vest in bone white and dark slate cargo track pants, standing under modern glass and steel museum architecture. Clean aesthetic, high contrast editorial." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2p4mx_tsUfN_1oFt_PGhEOMIW4De6_dAioKgFbHbXJfoxyfoDbN1BpG04G3CpusLu6TOfSvaYnKRg7_DNkhAUEpIkQzxLHEhrorkV_Cdpo-vdMKGYrw2QvJtYvRcqKj-GwGYjHTkiuiTQYpgXtje056hyBLB9nWm-hWZyGtd0ja8E6osOCsRwy1svAEiLEv3BNAHHmS4vLt3cz0mvT-X8WV0pl2IcUe7dMsUpBes79hdYeYbgiZ0FiA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex flex-col justify-end p-space-sm">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-surface-container-highest">Look 01</span>
+<span class="font-headline-sm text-headline-sm text-on-primary">Monochrome Utility</span>
+</div>
+</div>
+<div class="p-space-sm flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-secondary">Aeroloft Vest + Windrunner</span>
+<button class="w-8 h-8 flex items-center justify-center text-primary hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Story Card 2 -->
+<div class="snap-start flex-shrink-0 w-[260px] bg-surface-container-lowest flex flex-col group">
+<div class="relative w-full aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Side profile shot of limited edition Nike lifestyle sneakers on minimalist polished dark concrete floor with dramatic directional lighting and shadow lines. High fashion product showcase." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfYYmbELdGaHS2xic-iXrv-HjQyoP08-KbHBZGoVe2fr5AlD5Rij3hLEvFVKpdZyYdvhqG-66pEvw5giwwIWbZbWBQVJhDUsn37aUJ0zbI_nFLrKqqCgjaDXvAO55BzMTseSl834qtUYMtWhrDZ4r7_y0b-obMx3n38YJ7mqSj34_YIyjVmgnKNFi_6TzszHjJ002zC0Kf6Uc16ZOjs8ZGvvwDeIaqTme5yiTG92ei_Snhm9DvWZ7Tlw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex flex-col justify-end p-space-sm">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-surface-container-highest">Look 02</span>
+<span class="font-headline-sm text-headline-sm text-on-primary">Sculptural Footwear</span>
+</div>
+</div>
+<div class="p-space-sm flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-secondary">Air Max Pulse Modern</span>
+<button class="w-8 h-8 flex items-center justify-center text-primary hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Story Card 3 -->
+<div class="snap-start flex-shrink-0 w-[260px] bg-surface-container-lowest flex flex-col group">
+<div class="relative w-full aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Close up textile and seam details of a water-resistant storm fabric anorak with technical matte zipper hardware and minimalist tonal swoosh badge. Industrial fashion macro photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxb90L2dvb7RRn8NO6VcxLyHnyf1HLCsTMAANfWb98PP4lakGKspsdIiV818GPQ6NFDVaCOt4Rvkdunj474wkImTcoA0HBojAwtgX0pmaQ2vDAiPaXwXpI_-lElmZBn2ohIEjd9M-yO7EfPjbikod6gmXvqF7XIn1BWMsHNBDiVT9Scs3MZBQoCvjTUOJN2gOSw58ePkP257T35AKmpvLUxFP2Mn6lScJ1zvtUme2AlfmSHn8HX5Z-PQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex flex-col justify-end p-space-sm">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-surface-container-highest">Look 03</span>
+<span class="font-headline-sm text-headline-sm text-on-primary">Weather Engineered</span>
+</div>
+</div>
+<div class="p-space-sm flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-secondary">GORE-TEX Parka Shell</span>
+<button class="w-8 h-8 flex items-center justify-center text-primary hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Brand Spotlight Statement -->
+<section class="mt-space-xl px-margin-mobile">
+<div class="bg-surface-container-low p-space-lg text-center flex flex-col items-center">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary mb-space-xs">Philosophy</span>
+<p class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-medium tracking-tight max-w-sm">
+        "One digital sanctuary. The pinnacle silhouettes from global houses."
+      </p>
+<div class="w-10 h-0.5 bg-primary mt-space-sm mb-space-xs"></div>
+<span class="font-body-sm text-body-sm text-secondary">Atelier Curatorial Direction</span>
+</div>
+</section>
+<!-- Customer Perks & Trust Banner -->
+<section class="mt-space-xl px-margin-mobile">
+<div class="bg-surface-container-lowest p-space-md flex flex-col gap-space-md shadow-sm">
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-low flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Authenticity Guaranteed</h4>
+<p class="font-body-sm text-body-sm text-secondary">Every single piece verified by our multi-brand authentication team before dispatched packaging.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-low flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">local_shipping</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Express 2-Day Delivery</h4>
+<p class="font-body-sm text-body-sm text-secondary">Complimentary door-to-door courier dispatch on all domestic orders over $150.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-low flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">published_with_changes</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">30-Day Seamless Returns</h4>
+<p class="font-body-sm text-body-sm text-secondary">Pre-printed carbon-neutral return labels included in all garment boxes.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter Micro-Module -->
+<section class="mt-space-xl px-margin-mobile mb-4">
+<div class="bg-surface-container-high p-space-md flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">Private Access</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Join the Atelier Drop Registry</h3>
+<p class="font-body-sm text-body-sm text-secondary">Direct SMS &amp; email dispatches 15 minutes before global public releases.</p>
+<div class="mt-space-xs flex gap-space-2xs">
+<input class="flex-1 bg-surface-bright px-space-sm h-11 font-body-sm text-body-sm text-primary focus:outline-none placeholder:text-outline" placeholder="ENTER YOUR EMAIL" type="email"/>
+<button class="h-11 px-space-md bg-primary text-on-primary font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-tint transition-colors active:scale-95">
+          Join
+        </button>
+</div>
+</div>
+</section>
+</div>
+<script>
+  (function initAtelierStorefront() {
+    let bagCounter = 2;
+    const bagBadge = document.querySelector('header [data-path="shopping-bag"] span:last-child');
+    const toast = document.getElementById('toast-notification');
+    const toastMsg = document.getElementById('toast-message');
+    let toastTimeout = null;
+
+    function showToast(message) {
+      if (!toast) return;
+      toastMsg.textContent = message;
+      toast.classList.remove('opacity-0', '-translate-y-2');
+      toast.classList.add('opacity-100', 'translate-y-0');
+      clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        toast.classList.remove('opacity-100', 'translate-y-0');
+        toast.classList.add('opacity-0', '-translate-y-2');
+      }, 2200);
+    }
+
+    function updateBag(itemName) {
+      bagCounter++;
+      if (bagBadge) {
+        bagBadge.textContent = bagCounter;
+        bagBadge.classList.add('scale-125');
+        setTimeout(() => {
+          bagBadge.classList.remove('scale-125');
+        }, 200);
+      }
+      showToast(itemName ? `Added "${itemName}" to Bag` : 'Garment Added to Wardrobe Bag');
+    }
+
+    // Bind Add to Bag Buttons
+    document.querySelectorAll('.add-to-bag-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const itemName = btn.getAttribute('data-name');
+        updateBag(itemName);
+        
+        // Micro scale feedback on the button itself
+        btn.classList.add('bg-surface-tint');
+        setTimeout(() => {
+          btn.classList.remove('bg-surface-tint');
+        }, 300);
+      });
+    });
+
+    // Hero CTA Smooth Scroll to Grid
+    const heroCta = document.getElementById('shop-hero-cta');
+    if (heroCta) {
+      heroCta.addEventListener('click', () => {
+        const grid = document.getElementById('product-grid');
+        if (grid) {
+          grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    }
+
+    // Brand Filtering Interaction
+    const filterPills = document.querySelectorAll('.brand-pill');
+    const productCards = document.querySelectorAll('.product-card');
+    const emptyState = document.getElementById('filter-empty-state');
+    const filterLabel = document.getElementById('active-filter-label');
+    const resetBtn = document.getElementById('reset-filter-btn');
+
+    function applyFilter(selectedBrand) {
+      let visibleCount = 0;
+
+      filterPills.forEach(pill => {
+        const brand = pill.getAttribute('data-brand');
+        if (brand === selectedBrand) {
+          pill.classList.remove('bg-surface-container', 'text-on-surface-variant');
+          pill.classList.add('bg-primary', 'text-on-primary');
+        } else {
+          pill.classList.remove('bg-primary', 'text-on-primary');
+          pill.classList.add('bg-surface-container', 'text-on-surface-variant');
+        }
+      });
+
+      productCards.forEach(card => {
+        const cardBrand = card.getAttribute('data-brand');
+        if (selectedBrand === 'all' || cardBrand === selectedBrand) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      if (filterLabel) {
+        if (selectedBrand === 'all') {
+          filterLabel.textContent = `Viewing All Brands (${visibleCount})`;
+        } else {
+          const brandTitle = selectedBrand.replace('-', ' ').toUpperCase();
+          filterLabel.textContent = `Viewing ${brandTitle} (${visibleCount})`;
+        }
+      }
+
+      if (emptyState) {
+        if (visibleCount === 0) {
+          emptyState.classList.remove('hidden');
+        } else {
+          emptyState.classList.add('hidden');
+        }
+      }
+    }
+
+    filterPills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        const brand = pill.getAttribute('data-brand');
+        applyFilter(brand);
+      });
+    });
+
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        applyFilter('all');
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-1px_10px_rgba(0,0,0,0.03)]" data-active-classes="text-primary font-semibold"><div class="flex justify-around items-center h-16 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[48px] h-12 gap-1 transition-colors text-primary font-semibold" data-path="home-feed" href="#"><span class="material-symbols-outlined text-[22px]">home</span><span class="font-label-caps text-label-caps uppercase tracking-wider">Home</span></a><a class="flex flex-col items-center justify-center min-w-[48px] h-12 gap-1 text-on-surface-variant hover:text-primary transition-colors" data-path="brand-directory" href="#"><span class="material-symbols-outlined text-[22px]">grid_view</span><span class="font-label-caps text-label-caps uppercase tracking-wider">Brands</span></a><a class="flex flex-col items-center justify-center min-w-[48px] h-12 gap-1 text-on-surface-variant hover:text-primary transition-colors" data-path="editorial-discover" href="#"><span class="material-symbols-outlined text-[22px]">explore</span><span class="font-label-caps text-label-caps uppercase tracking-wider">Discover</span></a><a class="flex flex-col items-center justify-center min-w-[48px] h-12 gap-1 text-on-surface-variant hover:text-primary transition-colors" data-path="curated-wishlist" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span><span class="font-label-caps text-label-caps uppercase tracking-wider">Wishlist</span></a><a class="flex flex-col items-center justify-center min-w-[48px] h-12 gap-1 text-on-surface-variant hover:text-primary transition-colors" data-path="profile-hub" href="#"><span class="material-symbols-outlined text-[22px]">person</span><span class="font-label-caps text-label-caps uppercase tracking-wider">Profile</span></a></div></nav></body></html>
